@@ -23,7 +23,7 @@ nombre = str(input("Inserta el nombre el examen: "))
 
 clear()
 
-file = open(f"C:/Users/viruz/Desktop/{nombre}.txt", "w") #Abrimos el archivo txt que queramos editar
+file = open(f"/Desktop/{nombre}.txt", "w") #Abrimos el archivo txt que queramos editar
 
 var1 = input("Elige (Reading(R), Listening(L), Reading y Listening(B)): ")
 
